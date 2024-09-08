@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="employee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Employee Dashboard</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="#dashboard" class="active">Dashboard</a></li>
+                <li><a href="#complaints">Complaints</a></li>
+                <li><a href="#maintenance">Predictive Maintenance</a></li>
+                <li><a href="#surge">Surge Prediction</a></li>
+                <li><a href="#projects">Recent Development Projects</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h2>Welcome, Employee</h2>
+            </header>
+
+            <section id="dashboard-section" class="content-section">
+                <h3>Dashboard Overview</h3>
+                <p>Select a section from the sidebar to manage complaints, analyze predictive maintenance, or view surge predictions.</p>
+            </section>
+
+            <!-- Complaints Section -->
+            <section id="complaints-section" class="content-section">
+                <h3>Complaints</h3>
+                <p>Manage customer complaints about power theft and power cuts.</p>
+                <button>View All Complaints</button>
+            </section>
+
+            <!-- Predictive Maintenance Section -->
+            <section id="maintenance-section" class="content-section">
+                <h3>Predictive Maintenance</h3>
+                <p>Analyze maintenance needs to prevent power surges.</p>
+                <button>Analyze Surge Curve</button>
+            </section>
+
+            <!-- Surge Prediction Section -->
+            <section id="surge-section" class="content-section">
+                <h3>Surge Prediction</h3>
+                <p>View and predict upcoming power surges based on real-time data.</p>
+                <button>Predict Surge</button>
+            </section>
+
+            <!-- Recent Development Projects Section -->
+            <section id="projects-section" class="content-section">
+                <h3>Recent Development Projects</h3>
+                <p>Explore recent projects aimed at improving power distribution and management.</p>
+                <button>View Projects</button>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
