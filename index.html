@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./index.css">
+    <title>Responsive Login</title>
+</head>
+<body>
+    <div class="login">
+        <img class="image-2-icon" alt="Banner Image" src="IMAGE2024.jpg">
+        <div class="group-parent">
+            <img class="group-child" alt="Decorative Image" src="Group 4.png">
+            <div class="login-container">
+                <div class="login-box">
+                    <h2>USER SIGN IN</h2>
+                    <form action="login" method="post">
+                        <div class="dropdown">
+                            <select name="userType" required>
+                                <option value="" disabled selected>Please Select</option>
+                                <option value="employee">Employee</option>
+                                <option value="customer">Customer</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="username" placeholder="Enter your username" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" name="password" placeholder="Enter your password" required>
+                        </div>
+                        <button type="submit">Log In</button>
+                        <div class="don't have any account">
+                            
+                            <div class="signup-link">
+                                <p>Don't have any account?</p>
+                                
+                                <button class="signup-btn">Sign Up</button>
+                        
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <img class="image-1-icon" alt="Secondary Image" src="DELHI.2024.jpg">
+    </div>
+</body>
+</html>

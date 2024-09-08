@@ -1,0 +1,35 @@
+.container {
+    width: 350px; /* Adjust the overall container width */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #031545;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input, button {
+    width: 80%; /* Ensure input fields and button have the same width */
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #13b4dc;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #181ed3;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
